@@ -1,5 +1,7 @@
 Built with [Angular][1] and [Three.js][2]
 
+
+I simplified the following [codepen][3] so that I could better understand how to implement particle physics into Three.js/webgl  
 ## Getting Started
 
 ### Prerequisites
@@ -32,3 +34,4 @@ Running `npm test` will run the unit tests with karma.
 
 [1]: https://angularjs.org/
 [2]: http://threejs.org/
+[3]: http://codepen.io/Grilly86/pen/GBaCE
