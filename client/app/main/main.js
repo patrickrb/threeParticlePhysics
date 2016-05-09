@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('meanThree')
+angular.module('threeParticlePhysics')
   .config(function($stateProvider) {
       $stateProvider
           .state('main', {

@@ -14,16 +14,19 @@ module.exports = {
     ignorePath: '<%= yeoman.client %>/',
     overrides:{
       'three.js':{
-          main: ["build/three.min.js", "examples/js/controls/OrbitControls.js", "examples/js/renderers/Projector.js"]
+          main: ['build/three.min.js', 'examples/js/controls/OrbitControls.js', 'examples/js/renderers/Projector.js']
       },
       'bootstrap':{
-          main: ["dist/js/bootstrap.min.js", "dist/css/bootstrap.css"]
+          main: ['dist/js/bootstrap.min.js', 'dist/css/bootstrap.css']
       },
       'bootswatch': {
-          main: ["cyborg/bootstrap.css"]
+          main: ['cyborg/bootstrap.css']
       },
       'font-awesome':{
-          main: ["css/font-awesome.min.css"]
+          main: ['css/font-awesome.min.css']
+      },
+      'dat-gui':{
+        main: ['build/dat.gui.js']
       }
     }
   },
@@ -31,4 +34,4 @@ module.exports = {
     src: './karma.conf.js',
     devDependencies: true
   }
-}
+};

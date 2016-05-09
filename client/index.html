@@ -26,7 +26,7 @@
       <!-- endinjector -->
     <!-- endbuild -->
   </head>
-  <body ng-app="meanThree" style="margin:0px; overflow:hidden;">
+  <body ng-app="threeParticlePhysics" style="margin:0px; overflow:hidden;">
     <!--[if lt IE 7]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -72,20 +72,16 @@
       <script src="bower_components/three.js/build/three.min.js"></script>
       <script src="bower_components/three.js/examples/js/controls/OrbitControls.js"></script>
       <script src="bower_components/three.js/examples/js/renderers/Projector.js"></script>
+      <script src="bower_components/dat-gui/build/dat.gui.js"></script>
       <!-- endbower -->
       <script src="socket.io-client/socket.io.js"></script>
     <!-- endbuild -->
     <!-- build:js(.tmp) app/app.js -->
       <script src="app/app.js"></script>
       <!-- injector:js -->
-      <script src="app/account/account.js"></script>
-      <script src="app/account/login/login.controller.js"></script>
-      <script src="app/account/settings/settings.controller.js"></script>
-      <script src="app/account/signup/signup.controller.js"></script>
       <script src="app/main/main.controller.js"></script>
       <script src="app/main/main.js"></script>
       <script src="components/footer/footer.js"></script>
-      <script src="components/navbar/navbar.js"></script>
       <script src="components/services/controls.service.js"></script>
       <script src="components/services/utils.service.js"></script>
       <script src="components/socket/socket.service.js"></script>

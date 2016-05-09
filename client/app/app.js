@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('meanThree', [
+angular.module('threeParticlePhysics', [
   'ngCookies',
   'ngResource',
   'ngSanitize',

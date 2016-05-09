@@ -5,7 +5,7 @@
 module.exports = {
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/meanThree'
+    uri: 'mongodb://localhost/threeParticlePhysics'
   },
   sequelize: {
     uri: 'sqlite://',

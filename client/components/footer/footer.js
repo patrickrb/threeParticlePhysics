@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('meanThree')
+angular.module('threeParticlePhysics')
     .directive('footer', function() {
         return {
             restrict: 'E',
